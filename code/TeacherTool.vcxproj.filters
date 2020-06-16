@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="读取Excel数据">
+      <UniqueIdentifier>{b5d13ceb-0e19-42be-b584-e38a9e49ffb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Excel类库（手动加）">
+      <UniqueIdentifier>{8ad14c57-0683-4267-8778-a6cc9adddd13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="新建题库/模块">
+      <UniqueIdentifier>{d2e1b867-e9eb-413f-8a4a-8662a917b92a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TeacherTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TeacherToolDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myExcelReader.h">
+      <Filter>读取Excel数据</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication.h">
+      <Filter>Excel类库（手动加）</Filter>
+    </ClInclude>
+    <ClInclude Include="CRange.h">
+      <Filter>Excel类库（手动加）</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbook.h">
+      <Filter>Excel类库（手动加）</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbooks.h">
+      <Filter>Excel类库（手动加）</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheet.h">
+      <Filter>Excel类库（手动加）</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheets.h">
+      <Filter>Excel类库（手动加）</Filter>
+    </ClInclude>
+    <ClInclude Include="CDlg_CreateNewGroup.h">
+      <Filter>新建题库/模块</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TeacherTool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TeacherToolDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myExcelReader.cpp">
+      <Filter>读取Excel数据</Filter>
+    </ClCompile>
+    <ClCompile Include="CDlg_CreateNewGroup.cpp">
+      <Filter>新建题库/模块</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TeacherTool.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TeacherTool.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TeacherTool.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TeacherTool2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
